@@ -1,0 +1,8 @@
+pixel_scale_um: 0.058
+metrics:
+  - area_fraction
+  - characteristic_width
+  - euler_characteristic
+  - skeleton_length
+  - s2_correlation
+fid_samples: 20

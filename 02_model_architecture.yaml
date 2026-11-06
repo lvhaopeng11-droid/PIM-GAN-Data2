@@ -1,0 +1,12 @@
+generator:
+  encoder_channels: [64, 128, 256, 512, 512, 512]
+  bottleneck_size: [8, 8]
+  d_model: 512
+  output_channels: 1
+  output_activation: tanh
+discriminator:
+  stem_channels: [64, 128, 256]
+  transformer_dim: 256
+  transformer_heads: 8
+  transformer_layers: 2
+  patch_logits_dim: [30, 30]

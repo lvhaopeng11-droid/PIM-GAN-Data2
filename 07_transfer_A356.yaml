@@ -1,0 +1,10 @@
+target_alloy: A356
+transfer_mode: fine_tuning
+target_phase: eutectic_silicon
+average_dimension_um: 20.0
+pixel_scale_um: 0.390
+effective_activation_energy_kj_mol: 135.0
+fine_tune_epochs: 50
+learning_rate: 0.0001
+train_images: 12
+test_images: 4

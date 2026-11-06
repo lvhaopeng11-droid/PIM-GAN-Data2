@@ -1,0 +1,6 @@
+target_alloy: GH4738
+transfer_mode: zero_shot
+target_phase: spherical_gamma_prime
+average_dimension_nm: 200
+pixel_scale_um: 0.004
+effective_activation_energy_kj_mol: 270.0

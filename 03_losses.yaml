@@ -1,0 +1,11 @@
+weights:
+  lambda_adv: 1.0
+  lambda_tex: 10.0
+  lambda_phys: 5.0
+phase_score:
+  steepness_k: 20.0
+  decision_tau: 0.5
+  default_T_ref: 0.5
+kinetic_switch:
+  transition_epsilon: 0.01
+  gamma_steepness: 20.0

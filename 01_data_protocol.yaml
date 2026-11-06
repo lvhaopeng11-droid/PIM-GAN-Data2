@@ -1,0 +1,17 @@
+base_alloy: IN718
+n_batches: 6
+n_unique_initial_parent_images: 6
+n_final_parent_images: 306
+conditions_per_batch: 51
+splits:
+  train: 214
+  validation: 46
+  level1_internal_test: 4
+  level2_980_holdout: 42
+native_image_resolution: [1920, 1275]
+native_crop_resolution: [425, 425]
+network_input_resolution: [512, 512]
+crops_per_parent: 12
+augmentation_factor: 2
+native_pixel_scale_um: 0.058
+external_885_times_min: [30, 60, 90, 120, 150, 180, 210, 240]

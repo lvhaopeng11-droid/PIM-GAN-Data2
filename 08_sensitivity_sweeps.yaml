@@ -1,0 +1,3 @@
+input_resolutions: [256, 384, 512, 768, 1024]
+physical_crop_sizes: [256, 425, 512, 640, 850]
+training_dataset_sizes: [54, 107, 160, 214]
